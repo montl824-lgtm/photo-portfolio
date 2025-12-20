@@ -57,12 +57,13 @@ body {
 
 
 .gallery-wrap {
-  max-width: 600px;
+  /* max-width: 600px; */
   margin: 0 auto;
   padding: 30px 60px 90px;
   display: flex;
   flex-direction: column;
   gap: 55px;
+  width:80%;
 }
 
 
@@ -72,13 +73,14 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 55px;
+  width: 100%;
 }
 
 
 .row img {
   display: block;
-  width: auto;
-  height: auto;
+  /* width: auto;
+  height: auto; */
 }
 
 

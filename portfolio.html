@@ -19,24 +19,33 @@
 
   <main class="gallery-wrap">
     <!-- Row 1 -->
-    <section class="row">
+    <div class="row">
       <img src="images/eyes.jpg" class="tall" alt="eyes photo">
       <img src="images/band.jpg" class="wide" alt="band photo">
       <img src="images/light.jpg" class="tall" alt="light photo">
       <img src="images/fuzzy.jpeg" class="wide" alt="fuzzy photo">
-    </section>
+    </div>
 
     <!-- Row 2 (army removed — empty slot keeps the spacing like your screenshot) -->
-    <section class="row">
+    <div class="row row2-specialspacing">
       <img src="images/jewel.jpeg" class="tall" alt="jewel photo">
       <img src="images/finn.jpeg" class="tall" alt="finn photo">
       <img src="images/carioca.jpg" class="wide2" alt="carioca photo">
       <img src="images/windbreaker.jpg" class="tall" alt="windbreaker photo">
-      <div class="slot" aria-hidden="true"></div>
-    </section>
+      <!-- <div class="slot" aria-hidden="true"></div> -->
+    </div>
   </main>
 
 </body>
+
+<style>
+
+  .row2-specialspacing {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
 </html>
 
 
