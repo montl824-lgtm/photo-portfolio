@@ -251,3 +251,69 @@ body {
   text-decoration: underline;
 }
 
+/* ===== Dilara Page ===== */
+
+.project-page {
+  min-height: 100vh;
+  background: #000;
+  color: white;
+  font-family: "Luxurious Roman", serif;
+}
+
+/* Header */
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 80px 20px;
+}
+
+.project-title h1 {
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0 0 10px;
+}
+
+.project-title p {
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.project-header .name {
+  font-size: 18px;
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+}
+
+.project-header .name:hover {
+  text-decoration: underline;
+}
+
+/* Gallery */
+.project-gallery {
+  max-width: 1300px;
+  margin: 40px auto 100px;
+  padding: 0 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+/* Image sizes */
+.project-gallery img {
+  width: 100%;
+  display: block;
+}
+
+.project-gallery .large {
+  grid-column: span 2;
+}
+
+.project-gallery .tall {
+  height: 400px;
+  object-fit: cover;
+}
