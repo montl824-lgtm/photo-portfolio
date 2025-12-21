@@ -79,9 +79,6 @@ body {
   gap: 55px;
   width: 100%;
 }
-.row:nth-of-type(2) {
-  margin-left: 8px;
-}
 
 
 .row img {
@@ -416,7 +413,7 @@ body {
   letter-spacing: 1px;
   color: white;
 
-  background: rgba(0, 0, 0, 0.0); /* keep transparent if you don’t want a dark overlay */
+  background: rgba(255, 255, 255, 0); /* keep transparent if you don’t want a dark overlay */
   opacity: 0;
   transition: opacity 0.25s ease;
   pointer-events: none;
