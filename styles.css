@@ -58,9 +58,9 @@ body {
 
 .gallery-wrap {
   max-width: 1250px;
-  margin-left: 50px;      /* pushes whole gallery left */
+  margin-left: 50px;      
   margin-right: auto;
-  padding: 30px 0 90px;  /* removes side padding */
+  padding: 30px 0 90px;  
   display: flex;
   flex-direction: column;
   gap: 55px;
@@ -83,8 +83,7 @@ body {
 
 .row img {
   display: block;
-  /* width: auto;
-  height: auto; */
+  
 }
 
 
@@ -360,7 +359,7 @@ body {
   grid-row: 2 / 3;
 }
 
-/* Townhouses title link should look like the normal title */
+
 .project-link {
   color: white;
   text-decoration: none;
@@ -374,7 +373,7 @@ body {
 
 /* ===== PORTFOLIO IMAGE HOVERS (does not move layout) ===== */
 
-/* wrap must be a positioned box so overlay sits on top of the image */
+
 .portfolio-page .hover-wrap {
   position: relative;
   display: inline-block;
@@ -405,7 +404,7 @@ body {
   justify-content: center;
 
   text-align: center;
-  line-height: 1.05;        /* <- controls spacing between the two lines */
+  line-height: 1.05;        
 
   font-family: "Luxurious Roman", serif;
   font-style: italic;
@@ -413,7 +412,7 @@ body {
   letter-spacing: 1px;
   color: white;
 
-  background: rgba(255, 255, 255, 0); /* keep transparent if you don’t want a dark overlay */
+  background: rgba(255, 255, 255, 0); 
   opacity: 0;
   transition: opacity 0.25s ease;
   pointer-events: none;
@@ -426,3 +425,4 @@ body {
 .hover-line {
   display: block;
 }
+
